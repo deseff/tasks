@@ -46,14 +46,4 @@ public class TrelloClient {
                 .queryParam("fields", "name,id")
                 .build().encode().toUri();
     }
-
-    /*public List<TrelloBoardDto> getTrelloBoards() {
-
-        TrelloBoardDto[] boardsResponse = restTemplate.getForObject(url, TrelloBoardDto[].class);
-
-        if (boardsResponse != null) {
-            return Arrays.asList(boardsResponse);
-        }
-        return new ArrayList<>();
-    }*/
 }
