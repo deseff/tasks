@@ -21,7 +21,6 @@ echo Cannot copy file
 goto fail
 
 :runtomcat
-@rem here will be placed next commands
 call %CATALINA_HOME%\bin\startup.bat
 goto end
 
